@@ -337,7 +337,7 @@ class TestOutput {
             systemOutRule.clearLog();
             systemOutRule.enableLog(); // start capturing System.out
             Blackjack.main(args);
-            String output = systemOutRule.getLogWithNormalizedLineSeparator().strip();
+            String output = systemOutRule.getLogWithNormalizedLineSeparator().trim();
             TestOutput actual = new TestOutput(output);
             return actual;
         }
