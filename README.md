@@ -2,7 +2,7 @@
 A simplified version of the card game, [Blackjack](https://en.wikipedia.org/wiki/Blackjack).
 
 
-## Instructions
+## Structure of program
 
 
 In our simplified version of Blackjack, the play unfolds as follows:
@@ -23,10 +23,3 @@ Game follows this activity diagram:
 
 - All "cards" are simply integer values from 2 thru 11.
 
-## Double-check your submission
-
-Prove to yourself that you have correctly submitted by viewing your repository on the GitHub website - you should see your completed files there.
-
-## Resubmit as many times as you want
-
-You can re-submit as many times as you want before the deadline. Just make changes to the files on your own computer and repeat the process outlined above to upload them to GitHub.
