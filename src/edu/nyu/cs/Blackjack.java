@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 /**
  * A variation of the game of Blackjack.  
- * Complete this program according to the instructions in the README.md file as well as within the given comments below.
  */
 public class Blackjack {
 
