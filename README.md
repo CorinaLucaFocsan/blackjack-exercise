@@ -1,14 +1,9 @@
 # Blackjack Exercise
+A simplified version of the card game, [Blackjack](https://en.wikipedia.org/wiki/Blackjack).
 
-A little assignment to produce a simplified version of the card game, [Blackjack](https://en.wikipedia.org/wiki/Blackjack).
-
-## The goal
-
-The goal of this assignment is to practice logic and loops in Java.
 
 ## Instructions
 
-Complete this project, such that it allows a user to play a simplified version of the game of Blackjack against a virtual dealer.
 
 In our simplified version of Blackjack, the play unfolds as follows:
 
@@ -21,137 +16,12 @@ In our simplified version of Blackjack, the play unfolds as follows:
 
 ### Activity diagram
 
-The following diagram shows an overview of the flow of the game.
+Game follows this activity diagram:
 ![Blackjack activity diagram](./images/blackjack_activity_diagram.png)
 
 ### Additional notes:
 
-- Do not worry about drawing the same card twice. Draw cards at random.
 - All "cards" are simply integer values from 2 thru 11.
-- These rules are slightly different from how Blackjack is played in casinos. Follow our version's rules.
-
-Additional requirements are written as comments within the given source code files.
-
-### Sample output
-
-The following are sample outputs from running the program with various outcomes. User responses are indicated on the same line as the program output for ease-of-reading only - in all cases user input will actually appear on a separate line.
-
-Your program's output should exactly match these patterns.
-
-#### Sample output: user stands, dealer stands
-
-```
-Welcome to Blackjack!
-Your cards are: 2 and 4
-Would you like to hit or stand? stand
-The dealer stands.
-The dealer's cards are: 8, 7
-Dealer wins!
-```
-
-#### Sample output: dealer wins:
-
-```
-Welcome to Blackjack!
-Your cards are: 3 and 7
-Would you like to hit or stand? hit
-Your cards are: 3, 7, and 4
-Would you like to hit or stand? hit
-Your cards are: 3, 7, 4, and 2
-Would you like to hit or stand? stand
-The dealer hits.
-The dealer hits.
-The dealer hits.
-Your cards are: 3, 7, 4, and 2
-The dealer's cards are: 8, 3, 4, 3, 3
-Dealer wins!
-```
-
-#### Sample output: user wins:
-
-```
-Welcome to Blackjack!
-Your cards are: 8 and 2
-Would you like to hit or stand? hit
-Your cards are: 8, 2, and 8
-Would you like to hit or stand? stand
-The dealer hits.
-The dealer stands.
-Your cards are: 8, 2, and 8
-The dealer's cards are: 3, 3, and 7
-You win!
-```
-
-#### Sample output: tie:
-
-```
-Welcome to Blackjack!
-Your cards are: 5 and 6
-Would you like to hit or stand? hit
-Your cards are: 5, 6, and 3
-Would you like to hit or stand? stand
-The dealer hits.
-The dealer hits.
-The dealer stands.
-Your cards are: 5, 6, and 3
-The dealer's cards are: 2, 6, 2, and 4
-Tie!
-```
-
-#### Sample output: dealer busts:
-
-```
-Welcome to Blackjack!
-Your cards are: 5 and 6
-Would you like to hit or stand? hit
-Your cards are: 5, 6, and 3
-Would you like to hit or stand? stand
-The dealer hits.
-The dealer stands.
-Your cards are: 5, 6, and 3
-The dealer's cards are: 8, 8, and 10
-The dealer has bust!
-You win!
-```
-
-#### Sample output: user busts:
-
-```
-Welcome to Blackjack!
-Your cards are: 5 and 6
-Would you like to hit or stand? hit
-Your cards are: 5, 6, and 3
-Would you like to hit or stand? hit
-Your cards are: 5, 6, 3, and 10
-You have bust!
-Dealer wins!
-```
-
-Note that in our version of Blackjack, if the user busts, this happens before the dealer has received any cards.
-
-### Folder structure
-
-Each Java project will have several important directories:
-
-- `src` - contains the Java source code for the project (i.e. `.java` files)
-- `test` - contains code that will help us determine whether the code you have written works correctly. Do not touch this directory!
-- `bin` - contains the compiled code (i.e. `.class` files)
-- `lib` - contains any dependencies (other libraries of code that the project depends upon to work)
-
-If your project has no dependencies and has not been compiled, you may not see the `lib` or `bin` directories.
-
-## How to submit this assignment
-
-Once you have completed the changes to th assignment, you are ready to submit it. Do this from within Visual Studio Code.
-
-1. Click on the `Source Control` icon in the left activity bar in Visual Studio Code.
-1. In the Source Control side bar, you will see a field named `Message` - type in a unique message about what you have done, e.g. "_Finished assignment!_" or whatever you want to write as a short note to yourself.
-1. Hover over the words `Source Control`. You will see a `...` icon appear - click it to see a menu. In that menu, click `Commit`->`Commit`. This logs the changes you've made to the Git project - remember Git is used to keep track of changes.
-1. Go to the same menu and click `Push` to submit your assignment - this uploads your updated files to the copy of your respository on GitHub.
-
-![Push changes to GitHub](./images/how_to_push_changes_to_github_from_vscode.png)
-
-That's it... you're done.
 
 ## Double-check your submission
 
